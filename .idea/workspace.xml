@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="575c75ff-7185-46ff-a2e9-0d356b134db8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-nativ/JS-nativ/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02/02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654204277047</updated>
       <workItem from="1654204280442" duration="189000" />
+      <workItem from="1654206817770" duration="17000" />
     </task>
     <servers />
   </component>

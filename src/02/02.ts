@@ -51,6 +51,6 @@ console.log(student.age)
 console.log(student.name)
 console.log(student.address.city.countryTitle)
 console.log(student.tehnologies[2].title)
-
+console.log()
 
 
