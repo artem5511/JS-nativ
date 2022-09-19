@@ -3,13 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="575c75ff-7185-46ff-a2e9-0d356b134db8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02/02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITIncubatoR/JSNativeclasses" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -73,7 +78,9 @@
       <workItem from="1654204280442" duration="189000" />
       <workItem from="1654206817770" duration="17000" />
       <workItem from="1661970853766" duration="86000" />
-      <workItem from="1663508852336" duration="6800000" />
+      <workItem from="1663508852336" duration="8836000" />
+      <workItem from="1663594047840" duration="1534000" />
+      <workItem from="1663596506067" duration="222000" />
     </task>
     <servers />
   </component>
