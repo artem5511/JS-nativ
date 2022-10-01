@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="575c75ff-7185-46ff-a2e9-0d356b134db8" name="Changes" comment="Update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/06.callback/06.callback.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/it-kamasutra/JS-nativ",
     "node.js.detected.package.eslint": "true",
@@ -44,6 +44,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it-kamasutra\JS-nativ\src" />
       <recent name="D:\it-kamasutra\JS-nativ\src\03" />
     </key>
   </component>
@@ -70,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +92,11 @@
       <workItem from="1663596506067" duration="222000" />
       <workItem from="1663664525744" duration="102000" />
       <workItem from="1663831099785" duration="119000" />
-      <workItem from="1664009990451" duration="4203000" />
+      <workItem from="1664009990451" duration="4791000" />
+      <workItem from="1664626418429" duration="1215000" />
+      <workItem from="1664631225290" duration="16000" />
+      <workItem from="1664632554314" duration="540000" />
+      <workItem from="1664633182532" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1664031785387</created>
