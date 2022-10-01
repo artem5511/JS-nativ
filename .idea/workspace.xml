@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="575c75ff-7185-46ff-a2e9-0d356b134db8" name="Changes" comment="Update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/06.callback/06.callback.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/06-destructuring-assignment/destructuring.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02/02.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03/03.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-destructuring-assignment/Destructuring.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06.callback/06.callback.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/05.callback/05.callback.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +40,7 @@
     "last_opened_file_path": "D:/it-kamasutra/JS-nativ",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/it-kamasutra/JS-nativ/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "D:\\it-kamasutra\\JS-nativ\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -48,7 +52,20 @@
       <recent name="D:\it-kamasutra\JS-nativ\src\03" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Jest.test2">
+    <configuration name="test2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/06-destructuring-assignment/destructuring.test.ts" />
+      <test-names>
+        <test-name value="test2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,8 +88,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
+        <item itemvalue="Jest.test2" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +114,9 @@
       <workItem from="1664626418429" duration="1215000" />
       <workItem from="1664631225290" duration="16000" />
       <workItem from="1664632554314" duration="540000" />
-      <workItem from="1664633182532" duration="4579000" />
+      <workItem from="1664633182532" duration="4773000" />
+      <workItem from="1664644196931" duration="41000" />
+      <workItem from="1664648474528" duration="8410000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1664031785387</created>

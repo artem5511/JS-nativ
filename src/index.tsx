@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {User} from './06.callback/06.callback'
+import {User} from './05.callback/05.callback'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ManComponent} from "./06-destructuring-assignment/Destructuring";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <User />
+    <ManComponent car={any} food={any} man={Array}/>
   </React.StrictMode>
 );
 
