@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="575c75ff-7185-46ff-a2e9-0d356b134db8" name="Changes" comment="Update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/06-destructuring-assignment/destructuring.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02/02.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03/03.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-destructuring-assignment/Destructuring.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/06.callback/06.callback.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/05.callback/05.callback.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +29,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/it-kamasutra/JS-nativ",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs.jest.jest_package": "D:/it-kamasutra/JS-nativ/node_modules/react-scripts",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\it-kamasutra\\JS-nativ\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/it-kamasutra/ITIncubatoR/reactkabzda&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/it-kamasutra/JS-nativ/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\it-kamasutra\\JS-nativ\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\it-kamasutra\JS-nativ\src" />
@@ -88,9 +83,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.test2" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +112,9 @@
       <workItem from="1664633182532" duration="4773000" />
       <workItem from="1664644196931" duration="41000" />
       <workItem from="1664648474528" duration="8410000" />
+      <workItem from="1664712935001" duration="27000" />
+      <workItem from="1664719870145" duration="10000" />
+      <workItem from="1664720728949" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1664031785387</created>
