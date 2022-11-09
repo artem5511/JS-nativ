@@ -93,6 +93,6 @@ test('sort array test', () => {
 });
 
 function passportist (letters:any) {
-    letters.sort();
+    letters.sort();   //неправильно, нужна копия
     console.log(letters);
 }
