@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import {students} from "./07Associativmassiv/07Associativmassiv";
+import {students} from "./08Associativmassiv/07Associativmassiv";
 
 
 function App() {
