@@ -60,13 +60,9 @@ export function upgradeUserLaptop (u: UserWithLaptopType, laptop: string) {
     }
 }
 
-export function addNewBooksToUser (u: UserWithLaptopType & UserWithBooksType) {
+export function addNewBookToUser (u: UserWithLaptopType & UserWithBooksType, newBook: string) {
     return {
         ...u,
-        books: {
-            ...u.books,
-            [4]: 'TS',
-            [5]: 'React'
-        }
+        books: [...u.books, newBook]
     }
 }
