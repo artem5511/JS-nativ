@@ -1,37 +1,28 @@
-function icreaseAge(user: UserType) {
-    user.age++;
-}
-type UserType = {
-    name: string
-    age: number
-    address: {title: string}
+import {UserType} from './10_01';
+
+function makeHairstyle (u: UserType, power: number) {
+    const copy ={
+        ...u,
+        hair: u.hair / power
+    }
+    //copy.hair = u.hair / power
+    return copy
 }
 
 test('reference type test', () => {
     let user: UserType = {
         name: 'Artem',
-        age: 32,
+        hair: 32,
         address: {
             title: 'Minsk'
         }
     }
-    icreaseAge(user);
-    expect(user.age).toBe(33)
 
-const superman = user
-superman.age = 1000;
-expect(user.age).toBe(1000)
+const awesomeuser = makeHairstyle(user, 2)
 
-    let user2: UserType = {
-        name: 'Nata',
-        age: 26,
-        address: user.address
-    }
-  user2.address.title = 'kanary';
-
-    expect(user.address).toBe(user2.address)
-    expect(user.address.title).toBe("kanary")
-
+    expect(user.hair).toBe(32)
+    expect(awesomeuser.hair).toBe(16)
+    expect(awesomeuser.address).toBe(user.address)
 })
 
 
