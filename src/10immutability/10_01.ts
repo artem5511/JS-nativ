@@ -66,3 +66,21 @@ export function addNewBookToUser (u: UserWithLaptopType & UserWithBooksType, new
         books: [...u.books, newBook]
     }
 }
+
+export function updateBook (u: UserWithLaptopType & UserWithBooksType, oldBook: string, newBook: string) {
+    return {
+        ...u,
+        books: u.books.map( b => b === oldBook ? newBook : b)
+    }
+    // const copy = {
+    //     ...u,
+    //     books: u.books.map( b => {
+    //         if (b === oldBook) {
+    //             return newBook
+    //         } else {
+    //             return b
+    //         }
+    //     })
+    // }
+    // return copy
+}
