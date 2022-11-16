@@ -5,7 +5,7 @@ import {
     upgradeUserLaptop,
     UserType,
     UserWithBooksType,
-    UserWithLaptopType
+    UserWithLaptopType, removeBook
 } from './10_01';
 
 test('reference type test', () => {
@@ -45,7 +45,6 @@ test('change address', () => {
     expect(user.laptop).toBe(movedUser.laptop)
     expect(movedUser.address.city).toBe('Kiev')
 })
-
 
 test('upgrade laptop to macbook', () => {
     let user: UserWithLaptopType = {
@@ -137,4 +136,27 @@ test('update js to ts', () => {
     expect(user.laptop).toBe(userCopy.laptop)
     expect(user.books).not.toBe(userCopy.books)
     expect(userCopy.books[2]).toBe('TS')
+})
+
+test('remove HTML book', () => {
+    let user: UserWithLaptopType & UserWithBooksType = {
+        name: 'Artem',
+        hair: 32,
+        address: {
+            city: "Minsk",
+            house: 12
+        },
+        laptop: {
+            title: 'ZenBook'
+        },
+        books: ['CSS','HTML','JS']
+    }
+
+    const userCopy = removeBook (user,'HTML')
+
+    expect(user).not.toBe(userCopy)
+    expect(user.address).toBe(userCopy.address)
+    expect(user.laptop).toBe(userCopy.laptop)
+    expect(user.books).not.toBe(userCopy.books)
+    expect(userCopy.books[1]).toBe('JS')
 })

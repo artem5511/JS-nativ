@@ -84,3 +84,9 @@ export function updateBook (u: UserWithLaptopType & UserWithBooksType, oldBook: 
     // }
     // return copy
 }
+
+export function removeBook (u: UserWithLaptopType & UserWithBooksType, bookForDelete: string) {
+    return {
+        ...u,
+        books: u.books.filter( b => b !== bookForDelete)
+    }}
