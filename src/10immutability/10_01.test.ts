@@ -5,7 +5,7 @@ import {
     upgradeUserLaptop,
     UserType,
     UserWithBooksType,
-    UserWithLaptopType, removeBook
+    UserWithLaptopType, removeBook, WithCompaniesType, updateCompanyTitle, updateCompanyTitle2
 } from './10_01';
 
 test('reference type test', () => {
@@ -159,4 +159,38 @@ test('remove HTML book', () => {
     expect(user.laptop).toBe(userCopy.laptop)
     expect(user.books).not.toBe(userCopy.books)
     expect(userCopy.books[1]).toBe('JS')
+})
+
+test('add companies', () => {
+    let user: UserWithLaptopType & WithCompaniesType = {
+        name: 'Artem',
+        hair: 32,
+        address: {
+            city: "Minsk",
+            house: 12
+        },
+        laptop: {
+            title: 'ZenBook'
+        },
+        companies: [{id: 1, title: 'Epam'}, {id: 2, title: 'BAPB'}]
+    }
+
+    const userCopy = updateCompanyTitle(user, 1, 'LWO') as UserWithLaptopType & WithCompaniesType
+    expect(user).not.toBe(userCopy)
+    expect(user.address).toBe(userCopy.address)
+    expect(user.laptop).toBe(userCopy.laptop)
+    expect(user.companies).not.toBe(userCopy.companies)
+    expect(userCopy.companies[0].title).toBe('LWO')
+})
+
+test('update companies', () => {
+
+    let companies = {
+        'Artem': [{id: 1, title: 'Epam'}, {id: 2, title: 'BAPB'}],
+        'Dimych': [{id: 1, title: 'IT-INCUBATOR'}]
+    }
+   const copy = updateCompanyTitle2(companies, 1, 'Dimych', 'EPAM')
+
+    expect(copy['Dimych']).not.toBe(companies['Dimych'])
+    expect(copy['Artem']).toBe(companies['Artem'])
 })
