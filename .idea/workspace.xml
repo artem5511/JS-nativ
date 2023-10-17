@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="575c75ff-7185-46ff-a2e9-0d356b134db8" name="Changes" comment="Update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/07Associativmassiv/07Associativmassiv.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2A2OaUdpW2yQmw4ZOc9MFnj20oh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,18 +38,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/it-kamasutra/ITIncubatoR/reactkabzda",
+    "last_opened_file_path": "D:/it-kamasutra/ITincub3/JS-nativ",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "D:/it-kamasutra/JS-nativ/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\it-kamasutra\\JS-nativ\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\it-kamasutra\\ITincub3\\JS-nativ\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it-kamasutra\ITIncubatoR\JS-nativ\src\10immutability" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it-kamasutra\ITIncubatoR\JS-nativ\src\10immutability" />
       <recent name="D:\it-kamasutra\JS-nativ\src" />
       <recent name="D:\it-kamasutra\JS-nativ\src\03" />
     </key>
@@ -51,7 +65,6 @@
   <component name="RunManager" selected="Jest.test2">
     <configuration name="test2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -84,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.test2" />
       </list>
     </recent_temporary>
@@ -118,6 +131,16 @@
       <workItem from="1664720728949" duration="26000" />
       <workItem from="1664909696715" duration="4512000" />
       <workItem from="1664917049286" duration="204000" />
+      <workItem from="1666639824649" duration="3053000" />
+      <workItem from="1667077381764" duration="186000" />
+      <workItem from="1668030953250" duration="4475000" />
+      <workItem from="1668108933199" duration="34000" />
+      <workItem from="1668542020736" duration="528000" />
+      <workItem from="1668544023505" duration="10555000" />
+      <workItem from="1668628366755" duration="9165000" />
+      <workItem from="1668803982634" duration="759000" />
+      <workItem from="1694982283140" duration="499000" />
+      <workItem from="1697569862658" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1664031785387</created>
@@ -126,7 +149,91 @@
       <option name="project" value="LOCAL" />
       <updated>1664031785387</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update workspace.xml">
+      <created>1668031087254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668031087254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update workspace.xml">
+      <created>1668035343161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668035343161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update workspace.xml">
+      <created>1668035462917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668035462917</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update workspace.xml">
+      <created>1668544222753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668544222753</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update workspace.xml">
+      <created>1668545107104</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668545107104</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update workspace.xml">
+      <created>1668547084250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668547084250</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update workspace.xml">
+      <created>1668554533220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668554533220</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update workspace.xml">
+      <created>1668555393482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668555393482</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update workspace.xml">
+      <created>1668632203896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668632203896</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update workspace.xml">
+      <created>1668632932832</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668632932832</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update workspace.xml">
+      <created>1668638130134</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668638130134</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update workspace.xml">
+      <created>1668638241326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668638241326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
