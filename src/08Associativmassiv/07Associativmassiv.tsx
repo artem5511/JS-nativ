@@ -101,8 +101,8 @@ export const technologies: TechnologiesType = {
     ],
 }
 
-export const updateCourseStatus = (samuraiID: string, name: CourseNameType, isDone: boolean) => {
-    return {...technologies,
-        [samuraiID]: technologies[xxx].map(c => c.name === name ? {...c, isDone} : c)
-    }
-}
+// export const updateCourseStatus = (samuraiID: string, name: CourseNameType, isDone: boolean) => {
+//     return {...technologies,
+//         [samuraiID]: technologies[xxx].map(c => c.name === name ? {...c, isDone} : c)
+//     }
+// }
