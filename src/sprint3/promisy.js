@@ -6,3 +6,5 @@ const promise = new Promise(function(resolve, reject) {
     // resolve(результат) при успешном выполнении
     // reject(ошибка) при ошибке
 })
+
+const promise1 = axios.get('https://google.com')
