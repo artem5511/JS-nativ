@@ -7,4 +7,8 @@ const promise = new Promise(function(resolve, reject) {
     // reject(ошибка) при ошибке
 })
 
+findUserInDB(1)
+    .then(user => user.name)
+    .then(name => console.log(name))
+
 const promise1 = axios.get('https://google.com')
