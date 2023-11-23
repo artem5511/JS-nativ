@@ -13,3 +13,14 @@ findUserInDB(1)
     .then(name => console.log(name))
 
 const promise1 = axios.get('https://google.com')
+
+async function run() {
+    let user = await findUserInDB(1)
+    console.log(user.name)
+        let friend1 = await findUserInDB(user.friend)
+    console.log(friend1.name)
+    let friend2 = await findUserInDB(friend1.friend)
+    console.log(friend2.name +  " " + user.name)
+}
+
+run()
