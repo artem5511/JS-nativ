@@ -22,5 +22,6 @@ async function run() {
     let friend2 = await findUserInDB(friend1.friend)
     console.log(friend2.name +  " " + user.name)
 }
-
 run()
+
+const promise2 = axios.get()
