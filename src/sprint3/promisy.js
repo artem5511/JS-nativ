@@ -25,3 +25,10 @@ async function run() {
 run()
 
 const promise2 = axios.get()
+
+const promise2 = findUserInDB(100)
+console.log(promise2)
+promise2
+    .then((user) => {
+        console.log(user)
+    })
