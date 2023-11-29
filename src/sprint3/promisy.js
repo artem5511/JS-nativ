@@ -24,7 +24,7 @@ async function run() {
 }
 run()
 
-const promise2 = axios.get()
+// const promise2 = axios.get()
 
 const promise2 = findUserInDB(100)
 console.log(promise2)
