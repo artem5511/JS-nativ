@@ -32,11 +32,11 @@ promise2
     .then((user) => {
         console.log(user)
     })
-
-const promise2 = findUserInDB(100)
-console.log(promise2)
-promise2
-    .then((user) => {
-        console.log(user)
-    })
+//
+// const promise2 = findUserInDB(100)
+// console.log(promise2)
+// promise2
+//     .then((user) => {
+//         console.log(user)
+//     })
 
